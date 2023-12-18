@@ -1,0 +1,25 @@
+""" Difference between
+[List] - square brackets -- lists are mutable -- you can use methods like append(), extend(), remove() to modify a list
+(Tuple) - round brackets -- lists are immutable -- you cannot change its content, add, remove, or modify elements
+([Set]) - round + square brackets -- uses the set() constructor
+{Dictionary} - curly brackets -- made up of key-value pairs """
+
+list1 = ['Strawberry', 'Orange', 'Melon', 'Banana', 89, 30.8]
+print(list1)
+
+tuple1 = ('Strawberry', 'Orange', 'Melon', 'Banana', 89, 30.8)
+print(tuple1)
+
+set1 = set(['Strawberry', 'Orange', 'Melon', 'Banana', 89, 30.8])
+print(set1)
+
+dict1 = {
+    "1" : "Getsuyoubi",
+    "2" : "Kayoubi",
+    "3" : "Suiyoubi",
+    "4" : "Mokuyoubi",
+    "5" : "Kinyoubi",
+    "6" : "Doyoubi",
+    "7" : "Nichiyoubi"
+}
+print(dict1)
