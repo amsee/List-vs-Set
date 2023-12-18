@@ -1,7 +1,10 @@
 """ Difference between
 [List] - square brackets -- lists are mutable -- you can use methods like append(), extend(), remove() to modify a list
+- ordered and changeable. Duplicates OK
 (Tuple) - round brackets -- lists are immutable -- you cannot change its content, add, remove, or modify elements
+- ordered and unchangeable. Duplicates OK. Faster
 ([Set]) - round + square brackets -- uses the set() constructor
+- unordered and immutable, but Add/Remove OK. NO Duplicates
 {Dictionary} - curly brackets -- made up of key-value pairs """
 
 list1 = ['Strawberry', 'Orange', 'Melon', 'Banana', 89, 30.8]
